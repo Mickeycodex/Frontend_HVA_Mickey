@@ -38,9 +38,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-dit ging goed & dit was lastig- Wat goed ging is het maken van de html structuur van de website die ik heb gemaakt. Veder ging de opdracht in codepen me ook wel een stuk beter af als die van vorige week. 
+
+Dingen waar ik in de opdracht tegenaanliep waren het niet werkende krijgen van flex-warp. Hierdoor stonden de header items naast elkaar ipv boven elkaar. 
+
+Ook werkt bij mij op een of andere manier justify content right niet. Terwijl left en center wel werkte. 
 
 **Screenshot(s):**
+
+HTMLCODE(images/screenshot_html_v1.png)
+STIJLGUIDE (images/StyleGuide_Frontend_v1.png)
 
 -screenshot(s) van hoe ver je bent-
 
@@ -56,11 +63,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Rode Piste:** -kies uit zwart, rood óf blauw-
+**Niveau:** - Rood
 
-**Extra aandacht voor een surface laag:** -kies uit responsive óf surface plane-
+**Extra aandacht voor een surface laag:** -Surface plane-
 
-**Je opdracht:** - Ik twijfel nog tussen deze twee sites: http://hyperfy.com/ & 
+**Je opdracht:** - http://hyperfy.com/ & 
 **Screenshot(s):**
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshot_fullwebsite.png)
