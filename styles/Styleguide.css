@@ -1,0 +1,94 @@
+Main {
+    font-family: 'Exo', sans-serif;
+}
+
+
+.font01 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+}
+
+.font02 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+}
+
+.font03 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+}
+
+.font04 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+}
+
+.font05 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 800;
+}
+
+.kleur01 {color:white;
+  background-color:#382E36;
+  width: 20%;
+    height:5em;
+}
+
+.kleur02 {color:white;
+  background-color:#292B2C;
+  width: 20%;
+    height:5em;
+}
+
+.kleur03 {color:black;
+  background-color:#ffffff;
+   border:solid .1em red; 
+  width: 20%;
+    height:5em;
+
+}
+
+.kleur04 {color:white;
+  background-image: linear-gradient(#1D1D1B,#34233E);
+  width: 20%;
+ height:5em;
+}
+
+.kleur05 {color:white;
+  background-image: linear-gradient(#484A82,#6E71A9);
+  width: 20%;
+ height:5em;
+}
+
+.kleur06 {color:white;
+  background-image: linear-gradient(#373B6D,#0F1223);
+  width: 20%;
+ height:5em;
+}
+
+.kleur07 {color:white;
+  background-image: linear-gradient(#A65856,#D1995);
+  width: 20%;
+ height:5em;
+}
+
+
+.h1_css {
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 1.1em;
+    
+    
+}
+
+.h2_css {
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: 2.1em;
+    line-height: 1.1em;
+    
+    
+}
+
+
