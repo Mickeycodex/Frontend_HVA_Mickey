@@ -34,6 +34,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 
+
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
