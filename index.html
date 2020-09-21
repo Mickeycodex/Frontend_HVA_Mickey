@@ -8,27 +8,53 @@
         <meta name="website_Mickey" content="Mickey's Frontend website.">
         <link rel="stylesheet" href="styles/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <script src="scripts/script.js"></script>
     </head>
     <body>
         
         <header class=header_class>
-            <nav>
-                <ul>
-                    <li><img src="logo.jpg" alt="logo">
+            <nav class="header_nav">
+                <ul class="header_nav_ul">
+                    <li class="header_nav_ul_li"><img src="logo.jpg" alt="logo">
                     </li>
-                    <li a href=speed.html>Built For Speed</li>   
-                    <li a href=how_it_works.html>How it works</li> 
-                    <li a href=launch.html>Launch</li>  
-                    <li a href=showcase.html>Showcase</li>  
-                    <li a href=work.html>Work</li>
-                    <li a href=get_hyper.html>Get hyper</li> 
-                    <li><img src="icon_menu.jpg" alt="Menu icon"></li>
+                    <li class="header_nav_ul_li" a href=speed.html>Built For Speed</li>   
+                    <li class="header_nav_ul_li" a href=how_it_works.html>How it works</li> 
+                    <li class="header_nav_ul_li" a href=launch.html>Launch</li>  
+                    <li class="header_nav_ul_li" a href=showcase.html>Showcase</li>  
+                    <li class="header_nav_ul_li" a href=work.html>Work</li>
+                    <li class="header_nav_ul_li" a href=get_hyper.html>Get hyper</li> 
+                    
                 </ul>
+                
+                <section id="menu-bar">
+                   <section id="menu" onclick="onClickMenu()">
+                       
+                        <section id="bar1" class="bar"></section>
+                        <section id="bar2" class="bar"></section>
+                        <section id="bar3" class="bar"></section>
+                   
+                    </section>
+                    
+                    <ul class="nav-hidden" id="nav-hidden">
+                    
+                        <li class="nav-hidden-item1" a href=speed.html>Built For Speed</li>   
+                        <li class="nav-hidden-item2" a href=how_it_works.html>How it works</li> 
+                        <li class="nav-hidden-item3" a href=launch.html>Launch</li>  
+                        <li class="nav-hidden-item4" a href=showcase.html>Showcase</li>  
+                        <li class="nav-hidden-item5" a href=work.html>Work</li>
+                        <li class="nav-hidden-item6" a href=get_hyper.html>Get hyper</li> 
+                    
+                    </ul>
+                    
+                    
+               </section>
+        
                 <section>
                     <h1>Cutting-edge Websites.Out of this world pricing.</h1>
                     <h2>Learn More</h2>
                 </section>
-             </nav>
+             
+            </nav>
         </header>
         
         <main>
@@ -61,7 +87,7 @@
                     <h1>Fully-Responsive Design. Built for Speed.</h1>
                         <p class:main_p_1>With feature-ric. You're new site will perform efficiently on our blazing fast-platform.</p>
                         <p class:main_p_2>Our space-age ensures pixel perfection, no matter which device you use. We've got you (and all the pixels) covered.</p>
-                        <p class:icon_learnmore>Learn More</p>
+                        <p class=icon_learnmore>Learn More</p>
             </section>
             
         <section class=partners>
