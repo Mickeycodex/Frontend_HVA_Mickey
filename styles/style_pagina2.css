@@ -5,16 +5,16 @@ Body {
 }
 
 
-
+h1 {font-size: 2em;}
 
 
 header {
     
     background-color: red;
     height: 20em;
-    background-image: url(../images/header_placeholder.jpg);
+    background-image: url(../images/illustratie_page02.png);
     background-position:center;
-    background-size: 150%;
+    background-size: 100%;
 
     
 }
@@ -327,30 +327,10 @@ transform: translateY(115px)
 display:absolute;
     z-index: 1;
     top: 100px;
-    display: none;
 
 
 
 }
-
-#gradient_01_div { 
-      width: 200%;
-      height: 210px;
-      background: linear-gradient(5deg, rgba(166,88,86,1) 0%, rgba(209,153,94,1) 100%);
-      left: -20em;
-      transform: rotate(-5deg);
-      z-index: -1;
-      display: flex;
-      position: absolute;
-      bottom:-13em;
-      display: 
-      
-    }
-
-
-
-
-
 /* PARTNER AREA*/
 
 .partners h2 {
