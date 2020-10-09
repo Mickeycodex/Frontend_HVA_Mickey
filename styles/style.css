@@ -225,6 +225,7 @@ color:darkslategrey;}
     list-style: none;
     height: 100vh;
     display: none;
+    z-index: 5;
     
        
 }
@@ -270,8 +271,11 @@ transform: translateY(115px)
     
     padding-top: 2em; 
     padding-bottom: 2em;
-    
     text-align: center;
+    position: relative;
+    color: black;
+    overflow: hidden;
+
     
     
 }
@@ -281,69 +285,72 @@ transform: translateY(115px)
     display: flex;  
     color: #292B2C;
     justify-content: center;
+    color: black;
     
 }
 
 .mainarea p {  
  
-    color: #292B2C;
+    color: white;
     justify-content: center;
     text-align: center;
     z-index: -2;
 }
+
+#main_p1 {color: black;}
+
+
 
 .icon_learnmore {
     
     
     justify-content: center;
     border-style: solid;
-    border-color: #292B2C;
+    border-color: white;
     border-radius: 0.2em;
     border-width: 0.2px;
     margin-right: 40%;
     margin-left: 40%;
     font-size:1em;
-    color: #292B2C;
+    color: white;
     z-index: 9;
+    padding: 0.3em;
     
     }
 
 .icon_learnmore:hover {
-    background-color: grey;
-    color: white;
+    background-color: white;
+    color: darkslateblue;
      border-style: none;
+   
 }
 
 #illustratie {
     text-align: center;
-    max-width:80%;
-   
-
+    max-width:100%;
+    height: 25em;
+  
 
 }
 
-.bg_gradient {
-    
-display:absolute;
-    z-index: 1;
-    top: 100px;
-    display: none;
 
-
+.bg_gradient {position: absolute;
+z-index: -1;
+left: 0em;
+height: 20em;    
+transform: translateY(-90%);
+overflow: hidden;}
 
 }
 
 #gradient_01_div { 
-      width: 200%;
-      height: 210px;
-      background: linear-gradient(5deg, rgba(166,88,86,1) 0%, rgba(209,153,94,1) 100%);
-      left: -20em;
-      transform: rotate(-5deg);
-      z-index: -1;
-      display: flex;
-      position: absolute;
-      bottom:-13em;
-      display: 
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      position: relative;
+
+    
+      
       
     }
 
@@ -357,6 +364,7 @@ display:absolute;
 display:flex;
     justify-content: center;
     align-content: center;
+    color: black;
 }
 
 .partners p {
@@ -388,8 +396,18 @@ display:flex;
     background: rgb(55,59,109);
     background: linear-gradient(180deg, rgba(55,59,109,1) 0%, rgba(15,18,35,1) 100%);
     padding: 1em;
-    color: white;
-} 
+    color: white;;
+    
+   }
+
+.reach_new_hights p {position: relative;
+z-index: 1;}
+
+.bg_rondje {position: absolute;
+z-index: 2;
+transform: translateY(-100%);
+left:0em;
+width: 100;}
 
 
 

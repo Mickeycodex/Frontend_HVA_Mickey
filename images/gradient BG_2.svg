@@ -6,8 +6,8 @@
 	.st0{fill:url(#SVGID_1_);}
 </style>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1971.6151" y1="35.7911" x2="1973.8094" y2="498.1822" gradientTransform="matrix(1 0 0 -1 0 536)">
-	<stop  offset="0" style="stop-color:#A45555"/>
-	<stop  offset="1" style="stop-color:#CE945E"/>
+	<stop  offset="0" style="stop-color:#6E71A9"/>
+	<stop  offset="1" style="stop-color:#484A82"/>
 </linearGradient>
 <polygon class="st0" points="3944.45,493.5 1,533.5 1,39.5 3944.45,-0.5 "/>
 </svg>
