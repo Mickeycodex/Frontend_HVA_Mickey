@@ -14,11 +14,11 @@ header {
     background-size: 100%;
 }
 
-.header_nav {
+header nav {
     height: 100vh;
 }
 
-.header_nav_ul {
+header nav ul {
     display: flex;
     background-color: #382E36;
     height: 4em;
@@ -28,19 +28,19 @@ header {
     z-index: 11;
 }
 
-.header_nav_ul_li {
+header nav ul li {
     flex-grow: 1;
     color: white;
     justify-content: center;
-    margin-top: 2.4em;
-    font-size: 65%;
+    margin-top: 1.5em;
+    font-size: 1em;
     list-style: none;
     color: white;
     text-decoration: none;
     transform-style: 1s;
 }
 
-.header_nav_ul_li img {
+header nav ul li img {
     height: 3em;
     left: 0em;
     margin-top: -1em;
@@ -83,33 +83,8 @@ header nav h2:hover {
 }
 
 
-/* USP SCHEMA*/
-
-.usp_schema {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: #f2f0f0;
-}
-
-.usp_schema article {
-    background-color: white;
-    justify-content: center;
-    margin-top: 1.1em;
-    margin-bottom: 1.1em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    border-radius: 0.01em;
-    flex-grow: 1;
-    text-align: center;
-}
-
-.icon01 {
-    height: 2em;
-    margin-top: 2em;
-}
-
-
 /* Hambuger Menu */
+/* Gemaakt met behulp van deze tutorial: https://www.youtube.com/watch?v=gXkqy0b4M5g&t=1747s&ab_channel=DevEd*/
 
 #menu-bar {
     height: 30em;
@@ -121,7 +96,7 @@ header nav h2:hover {
 
 #menu {
     position: absolute;
-    margin-top: 1.5em;
+    margin-top: 0.3em;
     right: 2em;
     width: 2.1875em;
     height: 1.875em;
@@ -140,6 +115,7 @@ header nav h2:hover {
     border-radius: 0.3125em;
     transition: 0.3s ease-out;
     z-index: 1;
+    color: white;
 }
 
 #bar1 {
@@ -149,10 +125,6 @@ header nav h2:hover {
 
 #bar3 {
     transform: translateY(0.25em);
-}
-
-.change .bar {
-    color: white;
 }
 
 .change #bar1 {
@@ -235,6 +207,36 @@ main section {
     overflow: hidden;
 }
 
+
+
+
+#to_the_moon {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    grid-gap: 1em;
+    overflow: hidden;
+}
+
+#to_the_moon article img {
+    grid-area: icon;
+    width: 5em;
+    margin: auto;
+}
+
+#to_the_moon article h3 {
+    grid-area: tekst1;
+    margin: 0em;
+    font-size: 0.6em;
+}
+#to_the_moon article p {
+    grid-area: tekst2;
+    margin-right: 20em;
+    font-size: 0.6em;
+    bottom: 5em;
+    margin-bottom: 0em;
+}
+
 #moon_p2 {
     margin-top: 6em;
     display: relative;
@@ -268,13 +270,7 @@ main section {
     border-color: white;
 }
 
-#to_the_moon {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-content: center;
-    grid-gap: 1em;
-    overflow: hidden;
-}
+
 
 main article {
     background-color: white;
@@ -291,25 +287,8 @@ main article {
     grid-template-areas: "icon tekst1 tekst1 tekst1" "icon tekst2 tekst2 tekst2" ". . . .";
 }
 
-#icon {
-    grid-area: icon;
-    width: 5em;
-    margin: auto;
-}
+/* grid code gemaakt via deze tutorial: https://www.youtube.com/watch?v=20wCJ56whxo&ab_channel=DesignCourse/ */
 
-
-}
-#header {
-    grid-area: tekst1;
-    margin: 0em;
-    font-size: 0.6em;
-}
-#subtekst_header {
-    grid-area: tekst2;
-    margin-right: 20em;
-    font-size: 0.6em;
-    bottom: 5em;
-}
 #bg_gradient {
     position: absolute;
     z-index: -1;
@@ -421,7 +400,7 @@ footer {
     padding-top: 2em;
     padding-bottom: 6em;
 }
-.footer_ul1 {
+footer ul {
     color: white;
     padding: 0;
     margin-left: 2em;
@@ -466,15 +445,23 @@ footer {
         background-color: #f9f9f9;
     }
     
-    #subtekst_header {
+    #to_the_moon article h3 {
         margin-right: 10%;
         margin-left: 10%;
     }
     
-    #icon {
+    #to_the_moon article img {
         padding: 0%;
         margin: auto;
     }
+    
+    
+    #to_the_moon article p {
+        padding-left: 20%;
+        padding-right: 20%;
+        margin: auto;
+    }
+    
     
     #launch {
         display: flex;
@@ -484,6 +471,10 @@ footer {
         margin-left: 12%;
     }
     
+    
+    #launch_learn {
+       text-align: center;
+    }
     #launch article {
         height: 6.5em;
     }

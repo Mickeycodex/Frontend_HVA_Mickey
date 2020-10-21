@@ -11,7 +11,7 @@ header {
     background-size: 150%;
 }
 
-.header_nav_ul {
+header nav ul {
     display: flex;
     background-color: #382E36;
     height: 4em;
@@ -20,12 +20,12 @@ header {
     z-index: 10;
 }
 
-.header_nav_ul_li {
+header nav ul li {
     flex-grow: 1;
     color: white;
     justify-content: center;
-    margin-top: 2.4em;
-    font-size: 65%;
+    margin-top: 1.5em;
+    font-size: 1em;
     list-style: none;
     height: 2em;
     left: 0.5em;
@@ -33,7 +33,7 @@ header {
     transition: 1s;
 }
 
-.header_nav_ul_li img {
+header nav ul li img {
     height: 3em;
     left: 0em;
     margin-top: -1em;
@@ -78,13 +78,13 @@ header nav h2:hover {
 
 /* USP SCHEMA*/
 
-.usp_schema {
+#usp_schema {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #f2f0f0;
 }
 
-.usp_schema article {
+#usp_schema article {
     background-color: white;
     justify-content: center;
     margin-top: 1.1em;
@@ -103,10 +103,8 @@ header nav h2:hover {
 
 
 /* Hambuger Menu */
+/* Gemaakt met behulp van deze tutorial: https://www.youtube.com/watch?v=gXkqy0b4M5g&t=1747s&ab_channel=DevEd*/
 
-#menu-bar {
-    height: 30em;
-}
 
 #main_titel {
     margin-top: 6em;
@@ -114,10 +112,10 @@ header nav h2:hover {
 
 .menu {
     position: absolute;
-    margin-top: 1.5em;
+    margin-top: 0.3em;
     right: 2em;
     width: 2.1875em;
-    height: 1.875em;
+    height: 2em;
     z-index: 10;
 }
 
@@ -132,12 +130,12 @@ header nav h2:hover {
 }
 
 #bar1 {
-    transform: translateY(-0.25em);
+    transform: translateY(-0.3em);
     z-index: 1;
 }
 
 #bar3 {
-    transform: translateY(0.25em);
+    transform: translateY(0.3em);
 }
 
 .change .bar {
@@ -204,7 +202,7 @@ header nav h2:hover {
 
 /* main area*/
 
-.mainarea {
+#mainarea {
     padding-top: 2em;
     padding-bottom: 2em;
     text-align: center;
@@ -213,14 +211,14 @@ header nav h2:hover {
     overflow: hidden;
 }
 
-.mainarea h2 {
+#mainarea h2 {
     display: flex;
     color: #292B2C;
     justify-content: center;
     color: black;
 }
 
-.mainarea p {
+#mainarea p {
     color: white;
     justify-content: center;
     text-align: center;
@@ -274,14 +272,14 @@ header nav h2:hover {
 
 /* PARTNER AREA*/
 
-.partners p {
+#partners p {
     display: flex;
     justify-content: center;
     align-content: center;
     text-align: center;
 }
 
-.partners h2 {
+#partners h2 {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -289,7 +287,7 @@ header nav h2:hover {
     margin-top: 2em;
 }
 
-.partners ul {
+#partners ul {
     display: grid;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -298,23 +296,21 @@ header nav h2:hover {
     padding: 0em;
 }
 
-.partners img {
+#partners img {
     max-width: 20%;
     padding: 2em;
 }
 
-.reach_new_hights {
+#reach_new_hights {
     background: rgb(55, 59, 109);
     background: linear-gradient(180deg, rgba(55, 59, 109, 1) 0%, rgba(15, 18, 35, 1) 100%);
     padding: 1em;
     color: white;
+    text-align: center;
     ;
 }
 
-.reach_new_hights p {
-    position: relative;
-    z-index: 1;
-}
+
 
 .bg_rondje {
     position: absolute;
@@ -340,7 +336,7 @@ header nav h2:hover {
     padding: 0em;
 }
 
-.kollom1 {
+#kollom1 {
     background-color: white;
     width: 25%;
     align-items: center;
@@ -349,7 +345,7 @@ header nav h2:hover {
     height: 60em;
 }
 
-.kollom1 h2 {
+#kollom1 h2 {
     font-size: 2em;
     margin-top: 2em;
 }
@@ -404,22 +400,18 @@ header nav h2:hover {
     border-radius: 0.2em;
 }
 
-.kollom2 {
+#kollom2 {
     background-color: white;
     align-items: center;
     font-size: 50%;
     height: 60em;
+    width: 60%;
 }
 
 
-.kollom2.change {
-    background-color: red;
-    align-items: center;
-    font-size: 50%;
-    height: 60em;
-}
 
-.kollom3 {
+
+#kollom3 {
     background-color: white;
     width: 25%;
     align-items: center;
@@ -428,17 +420,7 @@ header nav h2:hover {
     height: 60em;
 }
 
-.reach_new_hights h2 {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
 
-.reach_new_hights p {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
 
 #ster {
     animation-name: ster1;
@@ -509,14 +491,14 @@ footer {
     padding-bottom: 6em;
 }
 
-.footer_ul1 {
+footer ul {
     color: white;
     padding: 0em;
     margin-left: 2em;
     list-style: none;
 }
 
-.footer_ul2 {
+#footer_ul2 {
     color: white;
     padding: 0em;
     margin-right;
@@ -536,10 +518,10 @@ footer {
 /* Media inquiries*/
 
 @media(min-width: 62.5em) {
-    #menu {
-        display: none;
-    }
-    #nav-hidden {
+    .menu {
+    display: none;
+}
+    .nav-hidden {
         display: none;
     }
     #drie_kollom {
@@ -549,11 +531,12 @@ footer {
         padding: 0em;
         margin: 0em;
     }
-    .kollom2 {
-        width: 100%
-    }
-    .partners img {
+   #partners img {
         height: 3em;
+    }
+    
+    #kollom2 {
+        width: 100%
     }
 }
 
@@ -561,7 +544,7 @@ footer {
     .header_nav_ul_li {
         display: none;
     }
-    .usp_schema {
+    #usp_schema {
         grid-template-columns: 1fr 1fr 1fr;
     }
     .usp_blok4 {
@@ -570,13 +553,13 @@ footer {
     #drie_kollom {
         grid-template-columns: 1fr;
     }
-    .kollom2 {
+    #kollom2 {
         width: 60%
     }
 }
 
 @media(max-width: 43.75em) {
-    .usp_schema {
+    #usp_schema {
         grid-template-columns: 1fr 1fr;
     }
     .usp_blok3 {
@@ -586,4 +569,4 @@ footer {
         width: 33em;
         height: 100%;
     }
-}cs
+}

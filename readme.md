@@ -14,24 +14,29 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 6 - Content (textueel): http://hyperfy.com/ 
 7 - Search icon: https://icons8.com/icon/131/search
 8 - 3 icons onder de catagorie to the moon and back zijn overgetrokken van: http://hyperfy.com/ 
+9 - Grid tutorial: https://www.youtube.com/watch?v=20wCJ56whxo&ab_channel=DesignCourse/
 
 
 
 ## Eindgesprek (week 7/8)
 
-Deze week ben ik vooral bezig geweest met het finetune van de laatste dingen. Ik heb mijn code opgeruimd, alle pixel waardes die ik er nog in had zitten omgezet in ems, of vh waardes, en de meeste classes (waar mogelijk) eruit gehaald.
+Deze week ben ik vooral bezig geweest met het finetune van de laatste dingen. Ik heb mijn code opgeruimd, alle pixel waardes die ik er nog in had zitten omgezet in ems, of vh waardes.
 
 Ook heb ik gewerkt aan een nieuwe animatie op pagina 02 (draaiende circel), en heb ik de navigation balk position sticky gemaakt. Daarnaast heb ik nog een schuine rand toegevoegd aan de footer waardoor het design wat mooier in elkaar overloopt.
 
 De knoppen in mijn site heb ik ook hoovers gegeven waardoor je goed kan zien wanneer je hier op zou staan met bijvoorbeeld geen muis.
 
-Een probleem waar ik tegenaan ben gelopen is dat ik de Oneclick had gebruikt in mijn html omdat de tutorial die ik had gevolgd voor de navigatie balk dit uitlegde. Momenteel ben ik bezig om dit op te lossen. 
+Een probleem waar ik tegenaan ben gelopen is dat ik de Oneclick had gebruikt in mijn html omdat de tutorial die ik had gevolgd voor de navigatie balk dit uitlegde. Toen ik dit aan het veranderen was lukte het me op geen enkele manier om dit op te lossen. Na uren dingen proberen kwam ik er via internet achter dat je je javascript onderaan de pagina moet zetten omdat deze bovenaan soms niet werkt. Gelukkig was dit uiteindelijk de oplossing. 
+
+Ook ben ik bezig geweest met het weghalen van de classes en id's. Helaas lukt mij het niet om deze om te zetten naar :first-of_type zonder dat mijn hele site in de soep liep... Daarom heb ik overal waar mogelijk is de classes en id's eruit gehaaled en er voor gezorgt dat de classes in id's zijn veranderd.
+
+
 
 
 **Screenshot(s):**
 
 
-![SCREENSHOT BROWSER](images/website tussenstand 43.png)
+![SCREENSHOT BROWSER](images/website tussenstand 04.png)
 
 
 ![SCREENSHOT CSS](images/html tussenstand 04.png)
@@ -100,15 +105,6 @@ Ook werkt bij mij op een of andere manier justify content right niet. Terwijl le
 ![STIJLGUIDE](images/StyleGuide_Frontend_v1.png)
 
 
-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
 
 
 
