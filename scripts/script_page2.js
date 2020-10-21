@@ -1,4 +1,3 @@
-
 var navbar = document.querySelector(".nav-hidden")
 var ham = document.querySelector(".menu")
 
@@ -12,15 +11,3 @@ function toggleHamburger(){
  
 }
 
-
-
-var Priceblok
- 
-Priceblok = document.getElementById("buttonGetstared");
-
-Priceblok.addEventListener("click", veranderenButton);
-
-function veranderenButton (){
-Priceblok.classList.toggle("change");
-  
-}
